@@ -120,3 +120,16 @@ button[type="submit"] {
   color: #6f1d1b;
 }
 
+/* Responsive styles for tablet */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 60vw; /* Adjust width for tablet devices */
+  }
+}
+
+/* Responsive styles for mobile */
+@media screen and (max-width: 480px) {
+  .container {
+    width: 90vw; /* Adjust width for mobile devices */
+  }
+}
